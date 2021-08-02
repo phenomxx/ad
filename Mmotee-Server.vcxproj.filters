@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\crypt.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\mapconverter.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\register.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\server.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_connector.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_job.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_server.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_string_helpers.cpp">
+      <Filter>src\engine\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\cmds.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-laser.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-mine.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\boomer.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\bossslime.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\farmer.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\kwah.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\monster.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcs.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcsw.cpp">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bouncing-bullet.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\buffs\buff.cpp">
+      <Filter>src\game\server\entities\buffs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\character.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\drawing\info.cpp">
+      <Filter>src\game\server\entities\drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\flyingpoint.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\healer-health.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hearth.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hero-flag.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\bonus.cpp">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\dropitem.cpp">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\moneybag.cpp">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\pickup.cpp">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\loltext.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\mobs\feya.cpp">
+      <Filter>src\game\server\entities\mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\projectile.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\slug-slime.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullpickup.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullproj.cpp">
+      <Filter>src\game\server\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\pizdamet.cpp">
+      <Filter>src\game\server\entities\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\sword.cpp">
+      <Filter>src\game\server\entities\sword</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entity.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\eventhandler.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontext.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontroller.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamemodes\mod.cpp">
+      <Filter>src\game\server\gamemodes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gameworld.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\player.cpp">
+      <Filter>src\game\server</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\components\localization.cpp">
+      <Filter>src\teeuniverses\components</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\crypt.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\mapconverter.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\netsession.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\register.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\server.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_connector.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_job.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_server.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_string_helpers.h">
+      <Filter>src\engine\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\classes.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\cmds.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-laser.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-mine.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\boomer.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\bossslime.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\farmer.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\kwah.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\monster.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcs.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcsw.h">
+      <Filter>src\game\server\entities\bots</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bouncing-bullet.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\buffs\buff.h">
+      <Filter>src\game\server\entities\buffs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\character.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\drawing\info.h">
+      <Filter>src\game\server\entities\drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\flyingpoint.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\healer-health.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hearth.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hero-flag.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\bonus.h">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\dropitem.h">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\moneybag.h">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\pickup.h">
+      <Filter>src\game\server\entities\items</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\loltext.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\mobs\feya.h">
+      <Filter>src\game\server\entities\mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\projectile.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\slug-slime.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullpickup.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullproj.h">
+      <Filter>src\game\server\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\pizdamet.h">
+      <Filter>src\game\server\entities\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\sword.h">
+      <Filter>src\game\server\entities\sword</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entity.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\eventhandler.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontext.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontroller.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamemodes\mod.h">
+      <Filter>src\game\server\gamemodes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gameworld.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\player.h">
+      <Filter>src\game\server</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\components\localization.h">
+      <Filter>src\teeuniverses\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\system\string.h">
+      <Filter>src\teeuniverses\system</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\tl\allocator.h">
+      <Filter>src\teeuniverses\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\tl\hashtable.h">
+      <Filter>src\teeuniverses\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\server_data.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\server_data.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\json.dir\$(Configuration)\json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\md5.dir\$(Configuration)\md5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\adler32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\compress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\crc32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\deflate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzclose.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzlib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzwrite.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\infback.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inffast.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inflate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inftrees.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\trees.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\uncompr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\zutil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\nethash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\protocol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\compression.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\console.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\datafile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\demo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\econ.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\engine.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\filecollection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\huffman.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\jobs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\linereader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\map.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\mapchecker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\masterserver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\memheap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netban.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netdatabase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_conn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console_conn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_server.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\packer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\ringbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\snapshot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\storage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\math.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\system.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\animation.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\collision.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\gamecore.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\layers.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\git_revision.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\nethash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\yurki\source\repos\mmo\other\icons\Teeworlds-Server.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D63BF0-0BDF-312F-AFEF-6E23B76C3E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{903BE49C-E4AC-31B3-9432-BA2C08509A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{CFD0FFA4-7041-3068-9279-5C0350A13B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FDB78743-C3C9-350E-A75C-975A9584FD16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{7F0E1B71-7A85-38DA-8413-88E17B2AC456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\server">
+      <UniqueIdentifier>{7BB82A7B-DC43-3902-9E50-CC346114968F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{95197E93-945C-36AC-AE24-45C8A3945E91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server">
+      <UniqueIdentifier>{91EAEDC7-7D3E-3F67-AD71-B1104A9A0AE3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities">
+      <UniqueIdentifier>{1CA461D1-2705-3BFF-841C-F7DFCB5B8CBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\bots">
+      <UniqueIdentifier>{ACFBC722-1165-348E-9154-610372363B30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\buffs">
+      <UniqueIdentifier>{C1E42FEB-9704-3A0E-9A6A-AB9863B1F7DD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\drawing">
+      <UniqueIdentifier>{6AE3C03E-C9E6-3E9D-9010-0898B0504A31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\items">
+      <UniqueIdentifier>{50060750-4068-3980-983B-5A0EB3AC7C99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\mobs">
+      <UniqueIdentifier>{B259359F-3614-3435-9D7D-20E28839C542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\entities\sword">
+      <UniqueIdentifier>{1FCA0328-4275-3DAE-8C16-F536F9D00741}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game\server\gamemodes">
+      <UniqueIdentifier>{2D7B0AAF-B5AA-35AA-9639-251781E8F3B1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\teeuniverses">
+      <UniqueIdentifier>{CC7D978F-4F94-3D9E-B0F8-27C56FE31631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\teeuniverses\components">
+      <UniqueIdentifier>{96A2F165-C84A-3536-AD0A-BAC489CB5C2C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\teeuniverses\system">
+      <UniqueIdentifier>{121A2FFC-6B28-3955-87BE-733B6E80A5AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\teeuniverses\tl">
+      <UniqueIdentifier>{BF895D75-543C-37E1-95C4-666880442456}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

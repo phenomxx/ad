@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\adler32.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\compress.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\crc32.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\deflate.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\gzclose.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\gzlib.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\gzread.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\gzwrite.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\infback.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inffast.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inflate.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inftrees.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\trees.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\uncompr.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\zutil.c">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\crc32.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\deflate.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\gzguts.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inffast.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inffixed.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inflate.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\inftrees.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\trees.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\zconf.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\zlib.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\zlib\zutil.h">
+      <Filter>src\engine\external\zlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{7F0E1B71-7A85-38DA-8413-88E17B2AC456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\external">
+      <UniqueIdentifier>{9B05184D-F11F-36F1-BD55-49D271B5D268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\external\zlib">
+      <UniqueIdentifier>{4BADE976-8909-3BA5-A06D-34C04AD2B928}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

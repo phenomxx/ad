@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\c31ef533c86c89d8c386529e29045e90\package_all.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\package_all" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D63BF0-0BDF-312F-AFEF-6E23B76C3E1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

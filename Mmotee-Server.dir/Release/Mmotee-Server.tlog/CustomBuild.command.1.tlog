@@ -1,0 +1,38 @@
+^C:\USERS\YURKI\SOURCE\REPOS\MMO\BUILD\CMAKEFILES\D372D8CCF88E3A092422DB1BFD58EC68\SERVER_DATA.CPP.RULE
+setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_source > C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YURKI\SOURCE\REPOS\MMO\BUILD\CMAKEFILES\D372D8CCF88E3A092422DB1BFD58EC68\SERVER_DATA.H.RULE
+setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_header > C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\YURKI\SOURCE\REPOS\MMO\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/yurki/source/repos/mmo -BC:/Users/yurki/source/repos/mmo/build --check-stamp-file C:/Users/yurki/source/repos/mmo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

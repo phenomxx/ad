@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\external\json-parser\json.c">
+      <Filter>src\engine\external\json-parser</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\external\json-parser\json.h">
+      <Filter>src\engine\external\json-parser</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{7F0E1B71-7A85-38DA-8413-88E17B2AC456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\external">
+      <UniqueIdentifier>{9B05184D-F11F-36F1-BD55-49D271B5D268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\external\json-parser">
+      <UniqueIdentifier>{A1E3915A-087E-3FAF-9F23-9CC134A2184D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

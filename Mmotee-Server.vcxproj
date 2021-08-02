@@ -1,0 +1,669 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D6C3CAA3-14E8-36E6-9091-675A5685ABFE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>Mmotee-Server</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Mmotee-Server.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Mmotee-Server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Mmotee-Server.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Mmotee-Server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Mmotee-Server.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Mmotee-Server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Mmotee-Server.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Mmotee-Server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4244;4267;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GAMEMODE_NAME="Mmotee";CONF_DEBUG;CONF_OPENSSL;GAME_RELEASE_VERSION="0.6.4";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GAMEMODE_NAME=\"Mmotee\";CONF_DEBUG;CONF_OPENSSL;GAME_RELEASE_VERSION=\"0.6.4\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libraries\openssl\windows\lib64\libcrypto.lib;ws2_32.lib;..\libraries\mysql\windows\lib64\mysqlclient.lib;..\libraries\mysql\windows\lib64\mysqlcppconn.lib;..\libraries\icu\windows\lib64\icuuc.lib;..\libraries\icu\windows\lib64\icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/yurki/source/repos/mmo/build/Debug/Mmotee-Server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yurki/source/repos/mmo/build/Debug/Mmotee-Server.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4244;4267;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME="Mmotee";CONF_OPENSSL;GAME_RELEASE_VERSION="0.6.4";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME=\"Mmotee\";CONF_OPENSSL;GAME_RELEASE_VERSION=\"0.6.4\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libraries\openssl\windows\lib64\libcrypto.lib;ws2_32.lib;..\libraries\mysql\windows\lib64\mysqlclient.lib;..\libraries\mysql\windows\lib64\mysqlcppconn.lib;..\libraries\icu\windows\lib64\icuuc.lib;..\libraries\icu\windows\lib64\icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/yurki/source/repos/mmo/build/Release/Mmotee-Server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yurki/source/repos/mmo/build/Release/Mmotee-Server.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DisableSpecificWarnings>4996;4244;4267;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME="Mmotee";CONF_OPENSSL;GAME_RELEASE_VERSION="0.6.4";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME=\"Mmotee\";CONF_OPENSSL;GAME_RELEASE_VERSION=\"0.6.4\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libraries\openssl\windows\lib64\libcrypto.lib;ws2_32.lib;..\libraries\mysql\windows\lib64\mysqlclient.lib;..\libraries\mysql\windows\lib64\mysqlcppconn.lib;..\libraries\icu\windows\lib64\icuuc.lib;..\libraries\icu\windows\lib64\icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/yurki/source/repos/mmo/build/MinSizeRel/Mmotee-Server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yurki/source/repos/mmo/build/MinSizeRel/Mmotee-Server.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>true</BufferSecurityCheck>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4244;4267;4800</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME="Mmotee";CONF_OPENSSL;GAME_RELEASE_VERSION="0.6.4";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GAMEMODE_NAME=\"Mmotee\";CONF_OPENSSL;GAME_RELEASE_VERSION=\"0.6.4\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\yurki\source\repos\mmo\libraries\mysql\include;C:\Users\yurki\source\repos\mmo\libraries\icu\include;C:\Users\yurki\source\repos\mmo\libraries\boost\include;C:\Users\yurki\source\repos\mmo\build\src;C:\Users\yurki\source\repos\mmo\src;C:\Users\yurki\source\repos\mmo\src\engine\external\zlib;C:\Users\yurki\source\repos\mmo\libraries\openssl\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\libraries\openssl\windows\lib64\libcrypto.lib;ws2_32.lib;..\libraries\mysql\windows\lib64\mysqlclient.lib;..\libraries\mysql\windows\lib64\mysqlcppconn.lib;..\libraries\icu\windows\lib64\icuuc.lib;..\libraries\icu\windows\lib64\icuin.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/yurki/source/repos/mmo/build/RelWithDebInfo/Mmotee-Server.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/yurki/source/repos/mmo/build/RelWithDebInfo/Mmotee-Server.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\server_data.cpp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/game/generated/server_data.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_source &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/game/generated/server_data.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_source &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/game/generated/server_data.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_source &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/game/generated/server_data.cpp</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_source &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.cpp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\server_data.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating src/game/generated/server_data.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_header &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating src/game/generated/server_data.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_header &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating src/game/generated/server_data.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_header &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating src/game/generated/server_data.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd C:\Users\yurki\source\repos\mmo
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\yurki\AppData\Local\Programs\Python\Python39\python.exe datasrc/compile.py server_content_header &gt; C:/Users/yurki/source/repos/mmo/build/src/game/generated/server_data.h
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\datasrc\compile.py;C:\Users\yurki\source\repos\mmo\datasrc\content.py;C:\Users\yurki\source\repos\mmo\datasrc\datatypes.py;C:\Users\yurki\source\repos\mmo\datasrc\network.py;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/yurki/source/repos/mmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/yurki/source/repos/mmo -BC:/Users/yurki/source/repos/mmo/build --check-stamp-file C:/Users/yurki/source/repos/mmo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindICU.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindMySQL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindOpenSSL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindZLIB.cmake;C:\Users\yurki\source\repos\mmo\src\game\version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\yurki\source\repos\mmo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/yurki/source/repos/mmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/yurki/source/repos/mmo -BC:/Users/yurki/source/repos/mmo/build --check-stamp-file C:/Users/yurki/source/repos/mmo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindICU.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindMySQL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindOpenSSL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindZLIB.cmake;C:\Users\yurki\source\repos\mmo\src\game\version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\yurki\source\repos\mmo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/yurki/source/repos/mmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/yurki/source/repos/mmo -BC:/Users/yurki/source/repos/mmo/build --check-stamp-file C:/Users/yurki/source/repos/mmo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindICU.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindMySQL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindOpenSSL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindZLIB.cmake;C:\Users\yurki\source\repos\mmo\src\game\version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\yurki\source\repos\mmo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/yurki/source/repos/mmo/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/yurki/source/repos/mmo -BC:/Users/yurki/source/repos/mmo/build --check-stamp-file C:/Users/yurki/source/repos/mmo/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeInitializeConfigs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeLanguageInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPack.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CPackComponent.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\FindThreads.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\GNUInstallDirs.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckCompilerFlag.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\Windows.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.20\Templates\CPackConfig.cmake.in;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeCXXCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeRCCompiler.cmake;C:\Users\yurki\source\repos\mmo\build\CMakeFiles\3.20.21032501-MSVC_2\CMakeSystem.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindICU.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindMySQL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindOpenSSL.cmake;C:\Users\yurki\source\repos\mmo\cmake\FindZLIB.cmake;C:\Users\yurki\source\repos\mmo\src\game\version.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\yurki\source\repos\mmo\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\json.dir\$(Configuration)\json.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\md5.dir\$(Configuration)\md5.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\adler32.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\compress.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\crc32.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\deflate.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzclose.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzlib.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzread.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzwrite.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\infback.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inffast.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inflate.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inftrees.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\trees.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\uncompr.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\zutil.obj" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\crypt.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\crypt.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\mapconverter.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\mapconverter.h" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\netsession.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\register.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\register.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\server.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\server.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_connector.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_connector.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_job.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_job.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_server.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_server.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_string_helpers.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server\sql_string_helpers.h" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\classes.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\cmds.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\cmds.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-laser.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-laser.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-mine.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\biologist-mine.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\boomer.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\boomer.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\bossslime.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\bossslime.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\farmer.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\farmer.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\kwah.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\kwah.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\monster.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\monster.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcs.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcs.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcsw.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bots\npcsw.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bouncing-bullet.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\bouncing-bullet.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\buffs\buff.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\buffs\buff.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\character.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\character.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\drawing\info.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\drawing\info.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\flyingpoint.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\flyingpoint.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\healer-health.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\healer-health.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hearth.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hearth.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hero-flag.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\hero-flag.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\bonus.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\bonus.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\dropitem.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\dropitem.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\moneybag.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\moneybag.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\pickup.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\items\pickup.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\loltext.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\loltext.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\mobs\feya.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\mobs\feya.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\projectile.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\projectile.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\slug-slime.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\slug-slime.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullpickup.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullpickup.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullproj.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\snapfullproj.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\pizdamet.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\pizdamet.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\sword.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entities\sword\sword.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\entity.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\entity.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\eventhandler.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\eventhandler.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontext.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontext.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontroller.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamecontroller.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamemodes\mod.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gamemodes\mod.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\gameworld.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\gameworld.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\server\player.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\server\player.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\components\localization.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\components\localization.h" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\system\string.h" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\tl\allocator.h" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\teeuniverses\tl\hashtable.h" />
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.cpp" />
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\server_data.h" />
+    <ResourceCompile Include="C:\Users\yurki\source\repos\mmo\other\icons\Teeworlds-Server.rc" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\nethash.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\protocol.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\compression.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\config.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\console.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\datafile.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\demo.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\econ.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\engine.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\filecollection.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\huffman.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\jobs.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\kernel.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\linereader.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\map.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\mapchecker.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\masterserver.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\memheap.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netban.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netdatabase.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_client.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_conn.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console_conn.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_server.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\packer.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\ringbuffer.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\snapshot.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\storage.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\math.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\system.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\animation.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\collision.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\gamecore.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\layers.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\git_revision.obj" />
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\game-shared.dir\$(Configuration)\nethash.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\ZERO_CHECK.vcxproj">
+      <Project>{EC68D432-2F9A-36E5-9946-E45C689F6368}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.vcxproj">
+      <Project>{FE3CF105-C20F-3C52-A50A-CF39AA3C4AA8}</Project>
+      <Name>engine-shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\game-shared.vcxproj">
+      <Project>{76DC1523-F90D-38C4-B562-95A6448B12CE}</Project>
+      <Name>game-shared</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\json.vcxproj">
+      <Project>{706F4976-FF24-3520-AC3B-6C85E3361D2A}</Project>
+      <Name>json</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\md5.vcxproj">
+      <Project>{B824C3C4-30F2-3E7D-B60A-AEFDF62B92EB}</Project>
+      <Name>md5</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\yurki\source\repos\mmo\build\zlib.vcxproj">
+      <Project>{28E40849-1FF9-32B7-AD10-0F56F037994E}</Project>
+      <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

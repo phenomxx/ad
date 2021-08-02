@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\nethash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\protocol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\compression.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\config.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\console.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\datafile.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\demo.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\econ.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\engine.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\filecollection.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\huffman.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\jobs.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\kernel.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\linereader.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\map.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\mapchecker.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\masterserver.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\memheap.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\netban.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\netdatabase.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network_client.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network_conn.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network_console.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network_console_conn.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network_server.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\packer.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\ringbuffer.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\snapshot.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\storage.cpp">
+      <Filter>src\engine\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\base\math.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\base\system.c">
+      <Filter>src\base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\config.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\console.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\demo.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\engine.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\kernel.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\map.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\masterserver.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\message.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\server.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\storage.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\compression.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\config.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\config_variables.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\console.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\datafile.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\demo.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\econ.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\filecollection.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\huffman.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\jobs.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\linereader.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\mapchecker.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\memheap.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\message.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\netban.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\netdatabase.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\network.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\packer.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\protocol.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\ringbuffer.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\engine\shared\snapshot.h">
+      <Filter>src\engine\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\detect.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\math.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\system.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\algorithm.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\allocator.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\array.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\base.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\range.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\sorted_array.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\string.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\tl\threading.h">
+      <Filter>src\base\tl</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\base\vmath.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\protocol.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\nethash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\protocol.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D63BF0-0BDF-312F-AFEF-6E23B76C3E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{903BE49C-E4AC-31B3-9432-BA2C08509A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FDB78743-C3C9-350E-A75C-975A9584FD16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{9E002D38-EA91-3D41-B1F7-168B7EE0B330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\base\tl">
+      <UniqueIdentifier>{36C7B679-2FAB-3FE3-98DF-2428E14D2F87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{7F0E1B71-7A85-38DA-8413-88E17B2AC456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine\shared">
+      <UniqueIdentifier>{E9990155-923E-3B3C-9C4D-04C460D39FAA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\animation.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\collision.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\gamecore.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\game\layers.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\git_revision.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\nethash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\animation.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\collision.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\gamecore.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\layers.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\mapitems.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\tuning.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\variables.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\version.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\game\voting.h">
+      <Filter>src\game</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\build\src\game\generated\protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\git_revision.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\protocol.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\build\CMakeFiles\d372d8ccf88e3a092422db1bfd58ec68\nethash.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D5D63BF0-0BDF-312F-AFEF-6E23B76C3E1A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{903BE49C-E4AC-31B3-9432-BA2C08509A8A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FDB78743-C3C9-350E-A75C-975A9584FD16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{95197E93-945C-36AC-AE24-45C8A3945E91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

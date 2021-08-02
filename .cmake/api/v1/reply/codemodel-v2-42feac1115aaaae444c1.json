@@ -1,0 +1,696 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mmotee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-b839bc1802e3c4876196.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mmotee-Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mmotee-Server-Debug-669c6d29f86d8beac1bc.json",
+					"name" : "Mmotee-Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-3be371a57c389b8b5ac6.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engine-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engine-shared-Debug-09a248688f3e7cde80f2.json",
+					"name" : "engine-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "everything::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-everything-Debug-630ee25e3b85ea3848e4.json",
+					"name" : "everything",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-shared-Debug-117b2da60dcdb078190c.json",
+					"name" : "game-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-json-Debug-be3af8f726c8fcedc9b3.json",
+					"name" : "json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mastersrv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mastersrv-Debug-decce48258294c0348ff.json",
+					"name" : "mastersrv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "md5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-md5-Debug-da53a5204c30786a29bf.json",
+					"name" : "md5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_all-Debug-339e0901691a9f74bac5.json",
+					"name" : "package_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_default::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_default-Debug-fbc0179135dd00ad4225.json",
+					"name" : "package_default",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_gz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_gz-Debug-e71cffaffa7fb3bded18.json",
+					"name" : "package_tar_gz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_xz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_xz-Debug-fddaed87a7edc88fb3d4.json",
+					"name" : "package_tar_xz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_zip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_zip-Debug-63ca613c2189013a5287.json",
+					"name" : "package_zip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlib-Debug-97ac8fee45e4ee88ef69.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mmotee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-b839bc1802e3c4876196.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mmotee-Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mmotee-Server-Release-60c3b7ec3ec79135cd81.json",
+					"name" : "Mmotee-Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-3be371a57c389b8b5ac6.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engine-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engine-shared-Release-16b83a302f4ebb6ab5fe.json",
+					"name" : "engine-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "everything::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-everything-Release-630ee25e3b85ea3848e4.json",
+					"name" : "everything",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-shared-Release-4f93815db6cb7b0a2dd8.json",
+					"name" : "game-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-json-Release-25bba78d06a425e5d2d1.json",
+					"name" : "json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mastersrv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mastersrv-Release-8c1299db75d283d2ecda.json",
+					"name" : "mastersrv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "md5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-md5-Release-1ec3e9905b04c933293e.json",
+					"name" : "md5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_all-Release-339e0901691a9f74bac5.json",
+					"name" : "package_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_default::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_default-Release-fbc0179135dd00ad4225.json",
+					"name" : "package_default",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_gz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_gz-Release-e71cffaffa7fb3bded18.json",
+					"name" : "package_tar_gz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_xz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_xz-Release-fddaed87a7edc88fb3d4.json",
+					"name" : "package_tar_xz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_zip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_zip-Release-63ca613c2189013a5287.json",
+					"name" : "package_zip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlib-Release-b96730abb06c7914d8ae.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mmotee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b839bc1802e3c4876196.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mmotee-Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mmotee-Server-MinSizeRel-55bdc8186d7e2201b844.json",
+					"name" : "Mmotee-Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-3be371a57c389b8b5ac6.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engine-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engine-shared-MinSizeRel-70bf55f6f5df8cbf3012.json",
+					"name" : "engine-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "everything::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-everything-MinSizeRel-630ee25e3b85ea3848e4.json",
+					"name" : "everything",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-shared-MinSizeRel-06b84e9993c3d27b31e1.json",
+					"name" : "game-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-json-MinSizeRel-97762dfdee5e5a93443f.json",
+					"name" : "json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mastersrv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mastersrv-MinSizeRel-4bcea716fa3adfa77e08.json",
+					"name" : "mastersrv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "md5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-md5-MinSizeRel-6ea4666a65543d6d79c9.json",
+					"name" : "md5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_all-MinSizeRel-339e0901691a9f74bac5.json",
+					"name" : "package_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_default::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_default-MinSizeRel-fbc0179135dd00ad4225.json",
+					"name" : "package_default",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_gz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_gz-MinSizeRel-e71cffaffa7fb3bded18.json",
+					"name" : "package_tar_gz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_xz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_xz-MinSizeRel-fddaed87a7edc88fb3d4.json",
+					"name" : "package_tar_xz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_zip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_zip-MinSizeRel-63ca613c2189013a5287.json",
+					"name" : "package_zip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlib-MinSizeRel-9f9e254cc3258e84fbd1.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Mmotee",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b839bc1802e3c4876196.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mmotee-Server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mmotee-Server-RelWithDebInfo-8d74b692706065ab1248.json",
+					"name" : "Mmotee-Server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-3be371a57c389b8b5ac6.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "engine-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-engine-shared-RelWithDebInfo-13e5e6d15da5049a2265.json",
+					"name" : "engine-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "everything::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-everything-RelWithDebInfo-630ee25e3b85ea3848e4.json",
+					"name" : "everything",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "game-shared::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-game-shared-RelWithDebInfo-c2ff44551d79a0f41835.json",
+					"name" : "game-shared",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-json-RelWithDebInfo-c7379331059c7e94bc03.json",
+					"name" : "json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mastersrv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mastersrv-RelWithDebInfo-a4a42c68ee8272cecc24.json",
+					"name" : "mastersrv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "md5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-md5-RelWithDebInfo-61a100eaac7bc97c7aef.json",
+					"name" : "md5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_all-RelWithDebInfo-339e0901691a9f74bac5.json",
+					"name" : "package_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_default::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_default-RelWithDebInfo-fbc0179135dd00ad4225.json",
+					"name" : "package_default",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_gz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_gz-RelWithDebInfo-e71cffaffa7fb3bded18.json",
+					"name" : "package_tar_gz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_tar_xz::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_tar_xz-RelWithDebInfo-fddaed87a7edc88fb3d4.json",
+					"name" : "package_tar_xz",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "package_zip::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-package_zip-RelWithDebInfo-63ca613c2189013a5287.json",
+					"name" : "package_zip",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "zlib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-zlib-RelWithDebInfo-6eb2de059869c7eef38b.json",
+					"name" : "zlib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/yurki/source/repos/mmo/build",
+		"source" : "C:/Users/yurki/source/repos/mmo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

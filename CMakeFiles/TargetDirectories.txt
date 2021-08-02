@@ -1,0 +1,17 @@
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/zlib.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/package_zip.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/game-shared.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/md5.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/json.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/engine-shared.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/Mmotee-Server.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/mastersrv.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/everything.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/package_tar_gz.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/package_tar_xz.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/package_default.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/package_all.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/PACKAGE.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/INSTALL.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/yurki/source/repos/mmo/build/CMakeFiles/ZERO_CHECK.dir

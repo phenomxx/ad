@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\yurki\source\repos\mmo\src\mastersrv\mastersrv.cpp">
+      <Filter>src\mastersrv</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\yurki\source\repos\mmo\src\mastersrv\mastersrv.h">
+      <Filter>src\mastersrv</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\yurki\source\repos\mmo\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\nethash.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\protocol.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\compression.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\config.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\console.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\datafile.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\demo.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\econ.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\engine.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\filecollection.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\huffman.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\jobs.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\kernel.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\linereader.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\map.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\mapchecker.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\masterserver.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\memheap.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netban.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\netdatabase.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_client.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_conn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_console_conn.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\network_server.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\packer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\ringbuffer.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\snapshot.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\storage.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\math.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\engine-shared.dir\$(Configuration)\system.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\json.dir\$(Configuration)\json.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\md5.dir\$(Configuration)\md5.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\adler32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\compress.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\crc32.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\deflate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzclose.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzlib.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\gzwrite.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\infback.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inffast.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inflate.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\inftrees.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\trees.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\uncompr.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\yurki\source\repos\mmo\build\zlib.dir\$(Configuration)\zutil.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{CFD0FFA4-7041-3068-9279-5C0350A13B76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{D9FECA4E-F928-302E-828F-5FC3C460D804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mastersrv">
+      <UniqueIdentifier>{F1368A1B-DA0D-3EDE-9BFB-D1041F87D4B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
